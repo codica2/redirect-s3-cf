@@ -31,8 +31,11 @@ Change your region to ``us-east-1`` and go to Amazon Certificate Manager, reqest
  
 ## Configuring CloudFront
 
-After getting certifactes go to CloudFront and create two ditribuitions. For Origin Domain Name use the s3 endpoint, dont use autocompleted variant. ![](cf-domain.png)
-For Viewer Protocol Policy use Redirect HTTP to HTTPS ![](cf-redirect.png).
+After getting certifactes go to CloudFront and create two ditribuitions. For Origin Domain Name use the s3 endpoint, dont use autocompleted variant.
+
+![](cf-domain.png)
+
+For Viewer Protocol Policy use Redirect HTTP to HTTPS.
 
 ![](cf-redirect.png).
 
@@ -40,7 +43,7 @@ CNAME for main CloudFront distibution is going to be ``www.yourdomain.com`` with
 
 ![](cf-cname.png)
 
-CNAME for secon CloudFront distibution is going to be ``yourdomain.com`` with your non-www. certificate 
+CNAME for secon CloudFront distibution is going to be ``yourdomain.com`` with your non-www. certificate.
 
 ![](cf-cname-non-www.png)
 
@@ -57,3 +60,15 @@ For ``www.yourdomain.com`` create A record with alias to CloudFront address acco
 For ``yourdomain.com`` create A record with alias to CloudFront address according to non-www domain.
 
 ![](r53-non-www.png)
+
+
+## License
+Copyright © 2015-2020 Codica. It is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+## About Codica
+
+[![Codica logo](https://www.codica.com/assets/images/logo/logo.svg)](https://www.codica.com)
+
+The names and logos for Codica are trademarks of Codica.
+
+We love open source software! See [our other projects](https://github.com/codica2) or [hire us](https://www.codica.com/) to design, develop, and grow your product.
