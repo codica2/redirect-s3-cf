@@ -29,3 +29,17 @@ Change your region to ``us-east-1`` and go to Amazon Certificate Manager, reqest
 
 After getting certifactes go to CloudFront and create two ditribuitions. For Origin Domain Name use the s3 endpoint, dont use autocompleted variant. ![](cf-domain.png)
 For Viewer Protocol Policy use Redirect HTTP to HTTPS ![](cf-redirect.png).
+
+![](cf-redirect.png).
+
+CNAME for main CloudFront distibution is going to be www.yourdomain.com with your www certificate 
+
+![](cf-cname.png)
+
+CNAME for secon CloudFront distibution is going to be yourdomain.com with your non-www certificate 
+
+![](cf-cname-non-www.png)
+
+Disable CloudFront caching
+
+![](cf-caching.png)
