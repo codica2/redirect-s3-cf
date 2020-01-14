@@ -1,5 +1,7 @@
 <h1 align="center">Redirect non-www to www with S3 and CloudFront</h1>
 
+![](gitlab-www-banner.jpg)
+
 If you want to redirect (non-www to www) on your static website hosted on S3 and delivered by CloudFront this guide is for you.
 
 ## Prerequisites
@@ -10,6 +12,8 @@ We will use such tools as:
 * [Amazon Certificate Manager](https://aws.amazon.com/ru/certificate-manager/)
 * [Amazon CloudFront](https://aws.amazon.com/ru/cloudfront/) 
 * [Amazon Route53](https://aws.amazon.com/ru/route53/) 
+
+![](gitlab-www.jpg)
 
 
 ## Prepare the S3 buckets 
