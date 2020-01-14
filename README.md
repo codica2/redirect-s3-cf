@@ -32,14 +32,24 @@ For Viewer Protocol Policy use Redirect HTTP to HTTPS ![](cf-redirect.png).
 
 ![](cf-redirect.png).
 
-CNAME for main CloudFront distibution is going to be www.yourdomain.com with your www certificate 
+CNAME for main CloudFront distibution is going to be ``www.yourdomain.com`` with your www certificate. 
 
 ![](cf-cname.png)
 
-CNAME for secon CloudFront distibution is going to be yourdomain.com with your non-www certificate 
+CNAME for secon CloudFront distibution is going to be ``yourdomain.com`` with your non-www. certificate 
 
 ![](cf-cname-non-www.png)
 
-Disable CloudFront caching
+Disable CloudFront caching.
 
 ![](cf-caching.png)
+
+## Configuring Route53
+
+For ``www.yourdomain.com`` create A record with alias to CloudFront address according to www domain.
+
+![](r53-www.png)
+
+For ``yourdomain.com`` create A record with alias to CloudFront address according to non-www domain.
+
+![](r53-non-www.png)
