@@ -39,11 +39,11 @@ For Viewer Protocol Policy use Redirect HTTP to HTTPS.
 
 ![](cf-redirect.png).
 
-CNAME for main CloudFront distibution is going to be ``www.yourdomain.com`` with your www certificate. 
+CNAME for the main CloudFront distibution is going to be ``www.yourdomain.com`` with your www certificate. 
 
 ![](cf-cname.png)
 
-CNAME for secon CloudFront distibution is going to be ``yourdomain.com`` with your non-www certificate.
+CNAME for second CloudFront distibution is going to be ``yourdomain.com`` with your non-www certificate.
 
 ![](cf-cname-non-www.png)
 
