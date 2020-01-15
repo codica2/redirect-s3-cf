@@ -2,7 +2,7 @@
 
 ![](gitlab-www-banner.jpg)
 
-If you want to redirect (non-www to www) to your static website hosted on S3 and delivered by CloudFront this guide is for you.
+If you want to redirect (non-www to www) to your static website hosted on S3 and delivered by CloudFront, this guide is for you.
 
 ## Prerequisites
 
@@ -31,7 +31,7 @@ Change your region to ``us-east-1`` and go to Amazon Certificate Manager, reqest
  
 ## Configuring CloudFront
 
-After getting certificates go to CloudFront and create two ditributions. For Origin Domain Name use the S3 endpoint, **dont use** autocompleted variant.
+After getting certificates, go to CloudFront and create two ditributions. For Origin Domain Name use the S3 endpoint, **don't use** autocompleted variant.
 
 ![](cf-domain.png)
 
