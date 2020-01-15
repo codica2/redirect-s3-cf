@@ -27,7 +27,7 @@ For ``yourdomain.com`` named bucket use these settings:
 
 ## Get certificates for your domain
 
-Change your region to ``us-east-1`` and go to Amazon Certificate Manager, reqest certificates for your both domain names ``www.yourdomain.com``, ``yourdomain.com``. Don't forget to create CNAME records in Route53.
+Change your region to ``us-east-1`` and go to Amazon Certificate Manager, reqest certificates for both of your domain names ``www.yourdomain.com``, ``yourdomain.com``. Don't forget to create CNAME records in Route53.
  
 ## Configuring CloudFront
 
@@ -43,7 +43,7 @@ CNAME for the main CloudFront distibution is going to be ``www.yourdomain.com`` 
 
 ![](cf-cname.png)
 
-CNAME for second CloudFront distibution is going to be ``yourdomain.com`` with your non-www certificate.
+CNAME for the second CloudFront distibution is going to be ``yourdomain.com`` with your non-www certificate.
 
 ![](cf-cname-non-www.png)
 
