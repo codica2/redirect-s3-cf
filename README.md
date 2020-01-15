@@ -27,7 +27,7 @@ For ``yourdomain.com`` named bucket use these settings:
 
 ## Get certificates for your domain
 
-Change your region to ``us-east-1`` and go to Amazon Certificate Manager, reqest certificates for both of your domain names ``www.yourdomain.com``, ``yourdomain.com``. Don't forget to create CNAME records in Route53.
+Change your region to ``us-east-1`` and go to Amazon Certificate Manager, reqest certificates for both of your domain names ``www.yourdomain.com``and ``yourdomain.com``. Don't forget to create CNAME records in Route53.
  
 ## Configuring CloudFront
 
