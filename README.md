@@ -31,7 +31,7 @@ Change your region to ``us-east-1`` and go to Amazon Certificate Manager, reqest
  
 ## Configuring CloudFront
 
-After getting certificates, go to CloudFront and create two ditributions. For Origin Domain Name use the S3 endpoint, **don't use** autocompleted variant.
+After getting certificates, go to CloudFront and create two ditributions. For Origin Domain Name use the S3 endpoint, **don't use** the autocompleted variant.
 
 ![](cf-domain.png)
 
