@@ -17,7 +17,7 @@ We will use such tools as:
 
 
 ## Prepare the S3 buckets 
-At first you need to create your S3 buckets. Main bucket name will be ``www.yourdomain.com``, second one will be ``yourdomain.com``. When completed - upload static content to your main bucket, then complete static website hosting.
+At first, you need to create your S3 buckets. Main bucket name will be ``www.yourdomain.com``, second one will be ``yourdomain.com``. When completed - upload static content to your main bucket, then complete static website hosting.
 
 ![](s3-config.jpg)
 
