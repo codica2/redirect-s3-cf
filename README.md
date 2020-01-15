@@ -2,7 +2,7 @@
 
 ![](gitlab-www-banner.jpg)
 
-If you want to redirect (non-www to www) on your static website hosted on S3 and delivered by CloudFront this guide is for you.
+If you want to redirect (non-www to www) to your static website hosted on S3 and delivered by CloudFront this guide is for you.
 
 ## Prerequisites
 
